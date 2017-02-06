@@ -1,4 +1,6 @@
-require 'spec_helper'
+require 'spec_helper'WS Cloud – Provisioned and stood up AWS instances including VPC’s containing Windows and Linux EC2 instances. 
+
+
 
 describe UsersController do
 =begin
@@ -26,7 +28,7 @@ describe UsersController do
         end
       end
       
-      it "should be successful" do
+      it "should be real successful" do
         get :index
         response.should be_success
       end
